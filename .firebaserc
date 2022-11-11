@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "dev": "er-dev-7164a",
+    "default": "er-dev-7164a"
+  },
+  "targets": {
+    "er-dev-7164a": {
+      "hosting": {
+        "dev": [
+          "er-storefront-dev"
+        ]
+      }
+    }
+  }
+}

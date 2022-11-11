@@ -1,0 +1,28 @@
+{
+  "functions": {
+    "source": ".output/server",
+    "runtime": "nodejs16"
+  },
+  "hosting": {
+    "target": "dev",
+    "public": ".output/public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "server"
+      }
+    ]
+  },
+  "emulators": {
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  }
+}
