@@ -1,13 +1,12 @@
 {
-  "projects": {
-    "dev": "er-dev-7164a",
+  "projects": 
     "default": "er-dev-7164a"
   },
   "targets": {
-    "er-dev-7164a": {
+    "product-id-here": {
       "hosting": {
         "dev": [
-          "er-storefront-dev"
+          "site-name-here"
         ]
       }
     }
