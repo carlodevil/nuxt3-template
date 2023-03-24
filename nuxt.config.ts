@@ -7,11 +7,6 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss'
     ],
     build: {
-        transpile: ["@headlessui/vue", "@heroicons/vue",],
-        extend(config, ctx) {
-            if (ctx.isDev) {
-              config.devtool = ctx.isClient ? 'source-map' : 'inline-source-map'
-            }
-          }
+        transpile: ["@headlessui/vue", "@heroicons/vue",]
     },
 })
